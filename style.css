@@ -1,0 +1,156 @@
+@import './css/sm-viewport.css';
+@import './css/md-viewport.css';
+@import './css/lg-viewport.css';
+@import './css/post.css';
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+
+body {
+	margin: 0;
+	background-color: #e2e4e6;
+}
+ #main {
+   width: 100%;
+   height: ;
+   background-color: #e2e4e6;
+ }
+@font-face {
+  font-family: aghitafont;
+  src: url(/blog website /fonts/Aghita.ttf);
+}
+@font-face {
+  font-family: rasfferdfont;
+  src: url(/blog website /fonts/Rasfferd.otf);
+}
+@font-face {
+  font-family: suwargifont;
+  src: url(/blog website /fonts/Suwargi.ttf);
+}
+@font-face {
+  font-family: kafiyehfont;
+  src: url(/blog website /fonts/Kafiyeh.ttf); }
+
+#home{
+  width: 100%;
+  height: 55vw;
+}
+#home #navbar{
+  height: 10vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0vw 10vw;
+}
+#navbar a{
+  text-decoration: none;
+  color: #000;
+}
+#home #navbar h1{
+  font-size: 3vw;
+  font-family: 'Times New Roman', Times, serif;
+}
+#home #navbar a button{
+  width: 15vw;
+  height: 5vw;
+  font-size: 2vw;
+  font-weight: 700;
+  border-radius: 10vw;
+  border: 0px;
+  background-color: orange;
+}
+#home #navbar a button:hover{
+  background-color: black;
+  color: orange;
+}
+#home #hero{
+  width: 100%;
+  height: 40vw;
+  font-size: 5vw;
+  
+}
+#hh1-1 {
+  transform: translate(10%, 9vw);
+  font-size: 20vw;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 30%;
+  
+}
+#hh1-2 {
+  transform: translate(33.5%, -17vw);
+  font-size: 14vw;
+  font-family: aghitafont;
+  font-weight: 550;
+}
+#hh1-3 {
+  transform: translate(32%, -20vw);
+  font-size: 14vw;
+  font-family: aghitafont;
+  font-weight: 550;
+}
+#work{
+  height: fit-content;
+  width: 100%;
+}
+#work1{
+  height: 40vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0vw 10vw;
+}
+#work2{
+  height: 40vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0vw 10vw;
+  margin-top: 7vw;
+}
+#work2 a{
+  text-decoration: none;
+}
+.workcntt{
+  height: 35vw;
+  width: 25vw;
+}
+.workcntt img{
+  height: 25vw;
+  width: 25vw;
+  border-radius: 2vw;
+}
+.workcntt video{
+  height: 25vw;
+  border-radius: 2vw;
+  margin-left: 5.5vw;
+}
+#work1 a{
+  color: #000;
+  text-decoration: none;
+}
+.workcntt h1{
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 3vw;
+}
+.workcntt button{
+  height: 5vw;
+  width: 15vw;
+  background-color: orange;
+  margin-left: 5vw;
+  font-size: 2vw;
+  font-weight: 600;
+  border: 0px;
+  border-radius: 10vw;
+}
